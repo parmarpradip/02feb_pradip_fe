@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Student-Form</title>
+</head>
+<body>
+	<form name="frm" action="mix.html" method="get">
+		<table border=20 cellpadding=10 align=center bgcolor="pink">
+		<tr bgcolor="red">
+			<th colspan=2>User Form</th>
+		</tr>
+		<tr>
+		<td>NAME</td>
+		<td><input type="text name" size=30 required></td>
+		</tr>
+		<tr>
+		<td>BOD</td>
+		<td><input type="date" size=30 required></td>
+		</tr>
+		<tr>
+		<td>Address</td>
+		<td><textarea name="add" rows="3" cols="20" required></textarea></td>
+		</tr>
+
+<tr>
+		<td>Emali</td>
+		<td><input type="text name" size=30 required></td>
+		</tr>
+		<tr>
+		<td>Password</td>
+		<td><input type="password" size=30 required></td>
+		</tr>
+		<tr>
+		<td>Gender</td>
+		<td><input type=radio name="gen" checked required>male<input type=radio name="gen" required>female</td>
+		</tr>
+		<tr>
+		<td>Qualification</td>
+		<td><input type=checkbox name="ssc" checked required>ssc<input type=checkbox name="hsc" checked>hsc<input type=checkbox name="Graduate" checked> Graduate<input type=checkbox name="master" checked>master</td>
+		</tr>
+		<tr>
+		<td>city</td>
+		<td>
+		<select name="ct" required>
+			<option>junagadh</option>
+			<option>Rajkot</option>
+			<option>Goa</option>		
+		</select>
+		</td>
+		</tr>
+		<tr>
+		<td>Subject</td>
+		<td>
+		<select name="ct" size=3 multiple>
+		<option>C Language</option>
+		<option>Funsamenatal</option>
+		<option>Networking</option>
+		<option>Communication</option>
+		<option>maths</option>
+		</select>
+		</td>
+		</tr>
+		<tr>
+		<td>upload photo</td>
+		<td><input type="file" name="NO FOND" required></td>
+		</tr>
+		<tr>
+		<td>f.coloR</td>
+		<td><input type="color" size=30 required></td>
+		</tr>
+		<tr>
+		<td>time</td>
+		<td><input type="time" size=30 required></td>
+		</tr>
+		<input type="hidden" name="hid" value="DATA NOT DISPLAY">
+		<tr>
+			<td colspan=2><center></center>
+			<input type="submit" name="sub" value="Sava">
+			<input type="reset" name="Reset">
+		</td>
+		</tr>
+	</form>
+</body>
+</html>
