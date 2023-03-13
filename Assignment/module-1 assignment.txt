@@ -180,3 +180,45 @@ HTML is an SGML-based language, which means that it has a loose syntax and allow
 XHTML, on the other hand, is an XML-based language and has a stricter syntax. It requires well-formed, valid XML code, meaning that all tags must be closed, attributes must be enclosed in quotes, and elements must be properly nested. This strict syntax makes XHTML more consistent and easier to parse by web browsers and other software.
 
 Another difference between HTML and XHTML is their content negotiation. HTML pages are served as text/html, while XHTML pages can be served as either text/html or application/xhtml+xml. When served as application/xhtml+xml, the browser treats the document as an XML file, and strict XML rules are enforced. This can lead to better compatibility and a more consistent rendering across different browsers and devices.
+
+(Q20):-What are logical and physical tags in HTML?
+Ans:-Physical and Logical tags are used in HTML for better visibility and understanding of the text by the user on the web page. However, both tags differ from each other as suggested by their names.
+
+-Logical Tags
+Logical Tags are used in HTML to display the text according to the logical styles. Following are the Logical tags commonly used in HTML.
+logical tag:
+ <abbr>Defines an abbreviation
+ <address>Defines an address element
+ <cite>Defines citation
+ <ins>Defines inserted text
+ <strong>Defines strong text
+
+-Physical Tags
+Physical Tags are used in HTML to provide actual physical formatting to the text. Following are the Physical tags commonly used in HTML.
+physical tag:
+ <b>Defines bold text
+ <big>Defines big text
+ <i>Defines italic text
+ <small>Defines small text
+ <sup>Defines superscripted text
+ <sub>Defines subscripted text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
