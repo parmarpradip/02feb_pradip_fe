@@ -203,22 +203,3 @@ physical tag:
  <sup>Defines superscripted text
  <sub>Defines subscripted text
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
