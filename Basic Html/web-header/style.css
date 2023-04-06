@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: cadetblue;
+    height: 70px;
+    width: auto;
+}
+.logo ul img{
+    width: 20%;
+    height: 70px;
+    list-style: none;
+    border: 2px solid aqua;
+    float: left;
+}
+.item ul { 
+    float: right;
+    width: 80%;
+    height: 70px;
+    border: 2px solid black;
+    list-style: none;
+    text-align: center;
+}
+ul li a{
+    display: inline;
+}
