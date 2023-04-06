@@ -4,25 +4,34 @@
     box-sizing: border-box;
 }
 .header{
-    background-color: cadetblue;
+    background-color: slategray;
     height: 70px;
     width: auto;
+    
 }
-.logo ul img{
+img{
     width: 20%;
     height: 70px;
     list-style: none;
-    border: 2px solid aqua;
     float: left;
 }
-.item ul { 
-    float: right;
+.item ul{ 
+    float: left;
     width: 80%;
     height: 70px;
-    border: 2px solid black;
     list-style: none;
     text-align: center;
 }
-ul li a{
+ul li{
+    line-height: 70px;
     display: inline;
+    padding: 20px;
+    margin: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: floralwhite;
+}
+ul li a:hover{
+    color: black;
 }
