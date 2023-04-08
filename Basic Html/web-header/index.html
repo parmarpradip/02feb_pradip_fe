@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+            //$('#slider').cycle('fade');
+            $('#slider').cycle('scrollLeft');
+        })
+    </script>
 </head>
 <body>
+    <!-- Header Start -->
+
+    <header>
    <div class="header">
      <img src="amazon.png" alt="amazon">
             <div class="item">
@@ -22,5 +33,28 @@
             </div>
    </div>
     </header>
+
+    <!-- Image Slider -->
+    <section id="slider">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb42EpENG6VgMrqQJozfa1J4opL2FmG3U6dASFVkWXZg&usqp=CAU&ec=48600113" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyaLnqNXJ8WBVbEk1f6MNszjGvb1aL7RjnhZynPbRdXg&usqp=CAU&ec=48600113" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2agDwtd8w4ZTpIiV49k0wGtIZbipPkfPCR7GDNNhApQ&usqp=CAU&ec=48600113" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNRduq8xK1nKJKdYOGqrRK7ze3ROwbBeN9X3p4DbaGlA&usqp=CAU&ec=48600113" alt="">
+    </section>
+
+    <div class="banner">
+        <div class="banner-1">
+            <img id="img-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXFhCx19QcgMn60_sbPupiW0uEoMHl7cy_HpiYI9-hr0PTddkUmKT4VAPiCvn-oNELJgE9HKczaQI&usqp=CAU&ec=48600113" alt="">
+            <p><b>15% off<br>
+                Any colths*
+            </b></p>
+            <img id="img-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXFhCx19QcgMn60_sbPupiW0uEoMHl7cy_HpiYI9-hr0PTddkUmKT4VAPiCvn-oNELJgE9HKczaQI&usqp=CAU&ec=48600113" alt="">
+        </div>
+
+        <!-- <div class="banner-2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvFjb6AIhus5wuR9KkZgIu7Rt7uCASxc1K3Ybw7FIvg&usqp=CAU&ec=48600113" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqIeDfg9rG1XsKoxTZkEn-kYac9xSw-uH160zEJABDoA&usqp=CAU&ec=48600113" alt="">
+        </div> -->
+    </div>
 </body>
 </html>

@@ -35,3 +35,29 @@ ul li a{
 ul li a:hover{
     color: black;
 }
+#slider img{
+    height: 500px;
+    width: 100%;
+}
+.banner-1 p{
+    text-align: center;
+}
+.banner-1 #img-1{
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+.banner-1 p{
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.banner-1 #img-2{   
+    float: right;
+    width: 25%;
+    height: 200px;
+}
+.banner-2 img{
+    height: 100px;
+}
