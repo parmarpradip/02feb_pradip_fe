@@ -1,0 +1,21 @@
+body h2{
+    text-align: center;
+    text-decoration: underline;
+}
+#active{
+    color: green;
+}
+.Ex{
+    text-align: center;
+}
+.Q3 dd {
+    margin: 0px;
+}
+.Q4 dd {
+    margin: 0px;
+}
+.Q10 table, th, td {
+    border: 1px solid black;
+    border-spacing: 0px;
+    padding: 5px;
+}
