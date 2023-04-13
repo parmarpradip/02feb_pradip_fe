@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+header{
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 101;
 }
 .header{
     background-color: white;
     height: 90px;
-    width: auto;   
+    width: 100%;
 }
 img{
     width: 20%;
@@ -15,6 +23,7 @@ img{
     float: left;
 }
 .main-header ul{
+    margin: 0 0 11px;
     list-style: none;
     text-align: center;
 }
@@ -33,8 +42,8 @@ img{
 }
 .item-right ul{ 
     float: left;
-    width: 80%;
-    height: 0px;
+    width: 90%;
+    height: auto;
     list-style: none;
     text-align: center;
 }
@@ -53,4 +62,32 @@ img{
 .item-right ul li a:hover{
     color: black;
     font-weight: bold;
+}
+#slider img{
+    height: 500px;
+    width: 100%;
+    position: sticky;
+}
+#adv img{
+    width: 100%;
+    height: 100%;
+}
+.banner-1 p{
+    text-align: center;
+}
+.banner-1 #img-1{
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+.banner-1 p{
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.banner-1 #img-2{   
+    float: right;
+    width: 25%;
+    height: 200px;
 }

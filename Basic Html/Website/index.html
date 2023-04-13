@@ -7,6 +7,19 @@
     <title>Online Shopping</title>
     <link rel="shortcut icon" href="./image/ajio-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#slider').cycle('scrollLeft');
+      })
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        $('#adv').cycle('scrollLeft');
+      })
+    </script>
 </head>
 <body>
       <!-- Header Start -->
@@ -32,15 +45,29 @@
                  </div>
         </div>
          </header>
-
-         <!-- Image Slider -->
-         <!-- <section id="slider">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-         </section> -->
+<hr>
+        <!-- Image Slider -->
+         <section id="slider">
+            <img src="./image/img-1.gif" alt="">
+            <img src="./image/img-2.avif" alt="">
+            <img src="./image/img-3.avif" alt="">
+            <img src="./image/img-4.avif" alt="">
+         </section>
+<hr>
+         <!-- Advertisement -->
+         <section id="adv">
+          <img src="./image/Paytm_1.avif" alt="">
+          <img src="./image/Mobikwik_1.avif" alt="">
+         </section>
+<hr>
+         <div class="banner">
+          <div class="banner-1">
+              <img id="img-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXFhCx19QcgMn60_sbPupiW0uEoMHl7cy_HpiYI9-hr0PTddkUmKT4VAPiCvn-oNELJgE9HKczaQI&usqp=CAU&ec=48600113" alt="">
+              <p><b>15% off<br>
+                  Any colths*
+              </b></p>
+              <img id="img-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXFhCx19QcgMn60_sbPupiW0uEoMHl7cy_HpiYI9-hr0PTddkUmKT4VAPiCvn-oNELJgE9HKczaQI&usqp=CAU&ec=48600113" alt="">
+          </div>
+  
 </body>
 </html>
