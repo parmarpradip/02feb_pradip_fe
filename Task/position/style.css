@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: ghostwhite;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+img{
+    width: 20%;
+    height: 70px;
+    float: left;
+}
+.item ul{
+    width: 80%;
+    height: 70px;
+    float: left;
+}
+.item ul li{
+    line-height: 70px;
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+}
+.item ul li a{
+    text-decoration: none;
+    color: green;
+}
+.log{
+    background: #00572d;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 15%;
+}
+.log a{
+    color: #fff;
+}
+.store{
+    position: relative;
+}
+.store .locat{
+    width: 100%;
+    height: auto;
+    background: #00572d;
+    position: absolute;
+    display: none;
+    top: 70px;
+    left: 20px;
+    z-index: 5;
+}
+.store .locat li img{
+    float: left;
+    flex-direction: row;
+    position: relative;
+    height: 150px;
+    width: 100px;
+}
+.store .locat li{
+    position: relative;
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: 5px;
+    padding: 15px;
+    color: #fff;
+}
+.store:hover .locat{
+    display: block;
+}
+#slider img{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    filter: brightness(50%);
+    z-index: 0;
+}
+.banner-text{
+    position: relative;
+    height: auto;
+    width: 100%;
+
+}
+#slider-1 .banner-heading span{
+    position: fixed;
+    height: auto;
+    width: 100%;
+    top: 20px;
+    left: 50px;
+}
