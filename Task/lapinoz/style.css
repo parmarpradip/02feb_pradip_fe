@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: ghostwhite;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+img{
+    width: 20%;
+    height: 70px;
+    float: left;
+}
+
+.item ul{
+    width: 80%;
+    height: 70px;
+    float: left;
+}
+.item ul li{
+    line-height: 70px;
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+}
+.item ul li a{
+    text-decoration: none;
+    color: green;
+}
+.dropdown{
+    display: none;
+}
+
+.dropdown ul li a{
+    height: 250px;
+    width: auto;
+    display: block;
+    text-align: left;
+    top: 5px;
+    color: #2bab0d;
+}
+.col-1 img{
+    height: 250px;
+    width: 250px;
+}
+.item ul li:hover .dropdown{
+    position: absolute;
+    margin: 15px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item ul li:hover .dropdown ul li{
+    display:list-item;
+    margin: 10px;
+    text-align: left;
+    top: 10px;
+    list-style: none;
+}
+#slider img{
+    position: fixed;
+    height: auto;
+    width: 100%;
+    filter: brightness(50%);
+    z-index: 0;
+}
+#img-1{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    height: auto;
+    width: 100%;
+
+} 
+
+.banner-text{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#img-1 .banner-heading {
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 6px;
+    width: 200px;
+    height: 100px;
+    z-index: 1;
+}
+.con{
+    margin-top: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+        /* Container */
+
+.container{
+    box-sizing: border-box;
+    height: 800px;
+    width: auto;
+    margin-top: 10px;
+    border: 1px solid;   
+}
+.container img{
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+
+     /* Card-1 */
+
+.card-1{
+    float: left;
+    padding: 0px;
+    margin: 25px;
+    background-color: aqua;
+}
+h4{
+    text-align: center;
+    color: red;
+}
+p{
+    text-align: center;
+    color: blue;
+}
+a{
+    text-align: center;
+}
+.cart{
+    background-color: cadetblue;
+    color: black;
+    border: 2px solid aqua;
+    text-decoration: none;
+    transition: 1s;
+}
+.cart:hover{
+    outline: 15px solid aqua;
+    outline-offset: 5px;
+    outline-width: 3px;
+    outline-style: solid;
+}
+span{
+    height: 50px;
+    position: relative;
+    top: 0px;
+    left: 48px;
+    background-color: red;
+}
+.view{
+    position: relative;
+    top: 0px;
+    background: black;
+    color: white;
+    opacity: 0;
+    z-index: 2;
+    transition: 1s;
+    text-align: center;
+}
+
+.card-1:hover  .view{
+    opacity: 1;
+    top: 200px;
+}
+.view:hover{
+    background: aqua;
+    color: black;
+}
+
+    /* Card-2 */
+
+.card-2{
+    float: left;
+    padding: 0px;
+    margin: 25px;
+    background-color: aqua;
+}
+span{
+    margin-left: 170px;
+    background-color: red;
+}
+
+.view{
+    position: relative;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    z-index: 2;
+    transition: 1s;
+}
+.card-2:hover  .view{
+    opacity: 1;
+    top: 200px;
+}
+.view:hover{
+    background: aqua;
+}
+
+    /* Card-3 */
+
+.card-3{
+    float: left;
+    padding: 0px;
+    margin: 25px;
+    background-color: aqua;
+}
+span{
+    margin-left: 170px;
+    background-color: red;
+}
+.view{
+    position: relative;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    z-index: 2;
+    transition: 1s;
+}
+.card-3:hover  .view{
+    opacity: 1;
+    top: 200px;
+}
+.view:hover{
+    background: aqua;
+}   
+    
+    /* Card-4 */
+
+.card-4{
+    float: left;
+    clear: right;
+    padding: 0px;
+    margin: 25px;
+    background-color: aqua;
+}
+span{
+    margin-left: 170px;
+    background-color: red;
+}
+.view{
+    position: relative;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    z-index: 2;
+    transition: 1s;
+}
+.card-4:hover  .view{
+    opacity: 1;
+    top: 200px;
+}
+.view:hover{
+    background: aqua;
+}    
+    
+    /* Card-5 */
+
+.card-5{
+    float: left;
+    clear: left;
+    padding: 0px;
+    margin: 25px;
+    background-color: aqua;
+}
+span{
+    margin-left: 170px;
+    background-color: red;
+}
+.view{
+    position: relative;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    z-index: 2;
+    transition: 1s;
+}
+.card-5:hover  .view{
+    opacity: 1;
+    top:150px;
+}
+.view:hover{
+    background: aqua;
+}   
+    
+    /* Card-6 */
+
+.card-6{
+    float: left;
+    padding: 0px;
+    margin: 25px;
+    background-color: aqua;
+}  
+span{
+    margin-left: 170px;
+    background-color: red;
+}
+.view{
+    position: relative;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    z-index: 2;
+    transition: 1s;
+}
+.card-6:hover  .view{
+    opacity: 1;
+    top: 200px;
+}
+.view:hover{
+    background: aqua;
+}    
+    
+    /* Card-7 */
+
+.card-7{
+    float: left;
+    padding: 0px;
+    margin: 25px;
+    background-color: aqua;
+}
+span{
+    margin-left: 170px;
+    background-color: red;
+}
+.view{
+    position: relative;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    z-index: 2;
+    transition: 1s;
+}
+.card-7:hover  .view{
+    opacity: 1;
+    top: 200px;
+}
+.view:hover{
+    background: aqua;
+}    
+    
+    /* Card-8 */
+
+.card-8{
+    float: left;
+    padding: 0px;
+    margin: 25px;
+    background-color: aqua;
+}
+span{
+    margin-left: 170px;
+    background-color: red;
+}
+.view{
+    position: relative;
+    top: 0;
+    background: black;
+    color: white;
+    opacity: 0;
+    z-index: 2;
+    transition: 1s;
+}
+.card-8:hover  .view{
+    opacity: 1;
+    top: 200px;
+}
+.view:hover{
+    background: aqua;
+}
