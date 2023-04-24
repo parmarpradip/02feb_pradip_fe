@@ -109,8 +109,7 @@ h1{
     box-sizing: border-box;
     height: 800px;
     width: auto;
-    margin-top: 10px;
-    border: 1px solid;   
+    margin-top: 5px; 
 }
 .container img{
     height: 250px;
@@ -118,14 +117,20 @@ h1{
     float: left;
 }
 
-     /* Card-1 */
-
-.card-1{
-    float: left;
-    padding: 0px;
-    margin: 25px;
-    background-color: aqua;
+span{
+    height: 50px;
+    position: relative;
+    top: 0px;
+    left: 220px;
+    background-color: red;
 }
+
+#card-1,#card-2,#card-3,#card-4
+#card-5,#card-6,#card-7,#card-8
+{
+    background-color: blanchedalmond;
+}
+
 h4{
     text-align: center;
     color: red;
@@ -134,28 +139,19 @@ p{
     text-align: center;
     color: blue;
 }
-a{
-    text-align: center;
-}
 .cart{
     background-color: cadetblue;
     color: black;
     border: 2px solid aqua;
     text-decoration: none;
     transition: 1s;
+    align-items: center;
 }
 .cart:hover{
     outline: 15px solid aqua;
     outline-offset: 5px;
     outline-width: 3px;
     outline-style: solid;
-}
-span{
-    height: 50px;
-    position: relative;
-    top: 0px;
-    left: 48px;
-    background-color: red;
 }
 .view{
     position: relative;
@@ -167,8 +163,26 @@ span{
     transition: 1s;
     text-align: center;
 }
+.row{
+    width: 80%;
+    margin: auto;
+}
 
-.card-1:hover  .view{
+     /* Card-1 */
+
+.card-1{
+    display: inline-block;
+}
+#card-1{
+    float: left;
+    padding: 0px;
+    margin: 25px;
+    display: inline-table;
+}
+.count-1{
+    display:block;
+}
+.card-1:hover .view{
     opacity: 1;
     top: 200px;
 }
@@ -180,24 +194,16 @@ span{
     /* Card-2 */
 
 .card-2{
+    display: inline-block;
+}
+#card-2{
     float: left;
     padding: 0px;
     margin: 25px;
-    background-color: aqua;
+    display: inline-table;
 }
-span{
-    margin-left: 170px;
-    background-color: red;
-}
-
-.view{
-    position: relative;
-    top: 0;
-    background: black;
-    color: white;
-    opacity: 0;
-    z-index: 2;
-    transition: 1s;
+.count-2{
+    display:block;
 }
 .card-2:hover  .view{
     opacity: 1;
@@ -210,23 +216,16 @@ span{
     /* Card-3 */
 
 .card-3{
+    display: inline-block;
+}
+#card-3{
     float: left;
     padding: 0px;
     margin: 25px;
-    background-color: aqua;
+    display: inline-table;
 }
-span{
-    margin-left: 170px;
-    background-color: red;
-}
-.view{
-    position: relative;
-    top: 0;
-    background: black;
-    color: white;
-    opacity: 0;
-    z-index: 2;
-    transition: 1s;
+.count-3{
+    display:block;
 }
 .card-3:hover  .view{
     opacity: 1;
@@ -239,24 +238,17 @@ span{
     /* Card-4 */
 
 .card-4{
+    display: inline-block;
+}
+#card-4{
     float: left;
     clear: right;
     padding: 0px;
     margin: 25px;
-    background-color: aqua;
+    display: inline-table;
 }
-span{
-    margin-left: 170px;
-    background-color: red;
-}
-.view{
-    position: relative;
-    top: 0;
-    background: black;
-    color: white;
-    opacity: 0;
-    z-index: 2;
-    transition: 1s;
+.count-4{
+    display:block;
 }
 .card-4:hover  .view{
     opacity: 1;
@@ -269,28 +261,21 @@ span{
     /* Card-5 */
 
 .card-5{
+    display: inline-block;
+}
+#card-5{
     float: left;
     clear: left;
     padding: 0px;
     margin: 25px;
-    background-color: aqua;
+    display: inline-table;
 }
-span{
-    margin-left: 170px;
-    background-color: red;
-}
-.view{
-    position: relative;
-    top: 0;
-    background: black;
-    color: white;
-    opacity: 0;
-    z-index: 2;
-    transition: 1s;
+.count-5{
+    display:block;
 }
 .card-5:hover  .view{
     opacity: 1;
-    top:150px;
+    top: 200px;
 }
 .view:hover{
     background: aqua;
@@ -299,24 +284,17 @@ span{
     /* Card-6 */
 
 .card-6{
+    display: inline-block;
+} 
+#card-6{
     float: left;
     padding: 0px;
     margin: 25px;
-    background-color: aqua;
-}  
-span{
-    margin-left: 170px;
-    background-color: red;
+    display: inline-table;
 }
-.view{
-    position: relative;
-    top: 0;
-    background: black;
-    color: white;
-    opacity: 0;
-    z-index: 2;
-    transition: 1s;
-}
+.count-6{
+    display:block;
+} 
 .card-6:hover  .view{
     opacity: 1;
     top: 200px;
@@ -328,23 +306,16 @@ span{
     /* Card-7 */
 
 .card-7{
+    display: inline-block;
+}
+#card-7{
     float: left;
     padding: 0px;
     margin: 25px;
-    background-color: aqua;
+    display: inline-table;
 }
-span{
-    margin-left: 170px;
-    background-color: red;
-}
-.view{
-    position: relative;
-    top: 0;
-    background: black;
-    color: white;
-    opacity: 0;
-    z-index: 2;
-    transition: 1s;
+.count-7{
+    display:block;
 }
 .card-7:hover  .view{
     opacity: 1;
@@ -357,23 +328,16 @@ span{
     /* Card-8 */
 
 .card-8{
+    display: inline-block;
+}
+#card-8{
     float: left;
     padding: 0px;
     margin: 25px;
-    background-color: aqua;
+    display: inline-table;
 }
-span{
-    margin-left: 170px;
-    background-color: red;
-}
-.view{
-    position: relative;
-    top: 0;
-    background: black;
-    color: white;
-    opacity: 0;
-    z-index: 2;
-    transition: 1s;
+.count-8{
+    display:block;
 }
 .card-8:hover  .view{
     opacity: 1;
