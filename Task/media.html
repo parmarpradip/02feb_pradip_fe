@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: ghostwhite;
+            height: 70px;
+            width: 100%;
+            position: fixed;
+            z-index: 5;
+        }
+        .item ul{
+            width: 100%;
+            height: 70px;
+            float: left;
+        }
+        .item ul li{
+            line-height: 70px;
+            display: inline;
+            padding: 20px;
+            margin: 20px;
+        }
+        .item ul li a{
+            text-decoration: none;
+        }
+        @media screen and (max-width: 600px) {
+            .header ul li a{
+              float: none;
+              display: none;
+              text-align: left;
+              
+            }
+               .fa-bars:hover + ul li a{
+                display: block;
+                position: fixed;
+            }
+            .header-right {
+              float: none;
+            }
+            .fa-bars{
+                display: inline;
+            }
+            .fa-house, .fa-mobile, .fa-user{
+                display: none;
+            }
+        }
+        @media screen and (min-width:600px){
+         
+
+        }
+        @media screen and (max-width:900px){
+            .header ul li a{
+                float: none;
+                display: none;
+            }
+            
+        }
+        @media screen and (min-width:900px){
+            .fa-bars{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="item">
+                <ul>
+                    <i class="fa-solid fa-bars"></i>
+                    <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+                    <li><i class="fa-solid fa-mobile"></i><a href="#">Mobile</a></li>
+                    <li><i class="fa-duotone fa-user"></i><a href="#">User</a></li>
+                </ul>
+        </div>
+    </header>
+</body>
+</html>
