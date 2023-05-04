@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child</title>
+    <style>
+        div > p{
+            color: aqua;
+        }
+        div:hover .par{
+            /*width: 50px;*/
+            margin: auto;
+            border-radius: 50%;
+            font-size: 50px;
+            background: #000;
+        }
+
+        .img{
+            height: 250px;
+            width: 50%;
+            margin: auto;
+            background: url(../../Image/image-o.jpeg);
+            background-size: 100% 100%;
+            border: 3px solid royalblue;
+        }
+        .img:hover{
+            background-image: url(../../Image/4.jpeg);
+            cursor: pointer;
+            border-radius: 50%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>    
+    <div>
+        <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, debitis.</p>
+    </div>
+    <div class="img">
+
+    </div>
+</body>
+</html>
