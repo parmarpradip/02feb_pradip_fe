@@ -1,0 +1,11 @@
+.Q7 .img-1{
+    background-image: url(../image/panda.png);
+    height: 200px;
+    width: auto;
+}
+.Q7 .img-2{
+    background-image: url(../image/panda.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}

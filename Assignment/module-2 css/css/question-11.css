@@ -1,0 +1,9 @@
+body{
+    width: 30em; 
+    background: cyan;
+}
+p{
+    width: 22em; 
+    margin-left: auto; 
+    margin-right: auto
+}
