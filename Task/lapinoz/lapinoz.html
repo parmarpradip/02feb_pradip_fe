@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Pinoz</title>
-    <link rel="shortcut icon" href="./lapinoz-icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="shortcut icon" href="./image/lapinoz-icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+   
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
     <script>
@@ -14,6 +22,7 @@
             $('#slider').cycle('scrollLeft');
         })
     </script>
+
 </head>
 <body>
  
@@ -21,12 +30,13 @@
 
    <header>
     <div class="header">
-        <img src="lapinoz-logo.png" alt="">
+        <img src="./image/lapinoz-logo.png" alt="">
 
         <div class="item">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Order Online</a>
+                <i class="fa-solid fa-bars"></i>
+                <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+                <li><i class="fa-solid fa-sort"></i><a href="#">Order Online</a>
                     <div class="dropdown">
                         <div class="col-1">
                             <ul>
@@ -36,141 +46,210 @@
                             </ul>
                         </div>
                         <div class="col-1">
-                            <img style="height: 250px;" src="./banner1.jpg" alt="">
+                            <img style="height: 250px;" src="./image/banner1.jpg" alt="">
                         </div>
                     </div>
                     
-                <li><a href="#">Store Selector</a>
+                <li><i class="fa-solid fa-store"></i><a href="#">Store Selector</a>
                 </li>
-                <li><a href="#">Franchise Enquiry</a></li>
-                <li><a href="#">Our Store</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><i class="fa-light fa-phone"></i><a href="#">Franchise Enquiry</a></li>
+                <li><i class="fa-regular fa-store"></i><a href="#">Our Store</a></li>
+                <li><i class="fa-solid fa-phone-office"></i><a href="#">Contact Us</a></li>
                 <li class="log"><a href="#">Login</a></li>
             </ul>
     </div>
 </header>
-   
+    
+                      <!-- Header End -->
+
+
+
+                     <!-- Slider start  -->
 <div class="con">
     <section id="slider">
-        <img src="./banner1.jpg" alt="" id="img-1">
-        <img src="./banner2.jpg" alt="" id="img-2">
-        <img src="./banner3.jpg" alt="" id="img-3">
+        <img src="./image/banner1.jpg" alt="" id="img-1">
+        <img src="./image/banner2.jpg" alt="" id="img-2">
+        <img src="./image/banner3.jpg" alt="" id="img-3">
     </section>
 </div>
+
+                    <!-- Slider End -->
+
 
 <h1>NEW</h1>
     <div class="container">
         
         <div class="row">
             <div id="card-1">
-                <div class="card-1">
+                <div class="card">
                     <span>New</span>
                     <div class="view">Quick View</div>
-                    <img src="./banner1.jpg" alt="">
+                    <img src="./image/banner1.jpg" alt="">
                 </div>
-            <div class="count-1">
-                    <h4>Formal Blue Shirt</h4>
-                    <p>$50.00</p>
+            <div class="count">
+                    <h4>Pizaa</h4>
+                    <p>$50.00
+                        <del>$65.44</del>
+                    </p>
                     <a class="cart" href="">ADD TO CART</a>
             </div>
             </div>
                
             <div id="card-2">
-                <div class="card-2">
+                <div class="card">
                     <span>New</span>
                     <div class="view">Quick View</div>
-                    <img src="./banner2.jpg" alt="">
-            </div>
-            <div class="count-2">
-                    <h4>Formal Blue Shirt</h4>
-                    <p>$50.00</p>
+                    <img src="./image/banner2.jpg" alt="">
+                <div class="count">
+                    <h4>Pizaa</h4>
+                    <p>$50.00
+                        <del>$65.44</del>
+                    </p>
                     <a class="cart" href="">ADD TO CART</a>
+                </div>
             </div>
             </div>
     
                 
             <div id="card-3">
-                <div class="card-3">
+                <div class="card">
                     <span>New</span>
                     <div class="view">Quick View</div>
-                    <img src="./banner3.jpg" alt="">
-            </div>
-            <div class="count-3">
-                    <h4>Formal Blue Shirt</h4>
-                    <p>$50.00</p>
+                    <img src="./image/banner3.jpg" alt="">
+                <div class="count">
+                    <h4>Pizaa</h4>
+                    <p>$50.00
+                        <del>$65.44</del>
+                    </p>
                     <a class="cart" href="">ADD TO CART</a>
+                </div>
             </div>
             </div>
 
                 
             <div id="card-4">
-                <div class="card-4">
+                <div class="card">
                     <span>New</span>
                     <div class="view">Quick View</div>
-                    <img src="./banner1.jpg" alt="">
-                </div>
-            <div class="count-4">
-                    <h4>Formal Blue Shirt</h4>
-                    <p>$50.00</p>
+                    <img src="./image/banner1.jpg" alt="">
+                <div class="count">
+                    <h4>Pizaa</h4>
+                    <p>$50.00
+                        <del>$65.44</del>
+                    </p>
                     <a class="cart" href="">ADD TO CART</a>
-            </div>
+                </div>
+                </div>
             </div>
         </div>
 
         <div class="row">
             <div id="card-5">
-                <div class="card-5">
+                <div class="card">
                     <span>New</span>
                     <div class="view">Quick View</div>
-                    <img src="./banner2.jpg" alt="">
+                    <img src="./image/banner2.jpg" alt="">
+                <div class="count">
+                    <h4>Pizaa</h4>
+                    <p>$50.00
+                        <del>$65.44</del>
+                    </p>
+                    <a class="cart" href="">ADD TO CART</a>
                 </div>
-            <div class="count-5">
-                <h4>Formal Blue Shirt</h4>
-                <p>$50.00</p>
-                <a class="cart" href="">ADD TO CART</a>
-            </div>
+                </div>
             </div>
 
                 
             <div id="card-6">
-                <div class="card-6">
+                <div class="card">
                     <span>New</span>
                     <div class="view">Quick View</div>
-                    <img src="./banner3.jpg" alt="">
+                    <img src="./image/banner3.jpg" alt="">
+                <div class="count">
+                    <h4>Pizaa</h4>
+                    <p>$50.00
+                        <del>$65.44</del>
+                    </p>
+                    <a class="cart" href="">ADD TO CART</a>
                 </div>
-            <div class="count-6">
-                <h4>Formal Blue Shirt</h4>
-                <p>$50.00</p>
-                <a class="cart" href="">ADD TO CART</a>
-            </div>
+                </div>
             </div>
                 
             <div id="card-7">
-                <div class="card-7">
+                <div class="card">
                     <span>New</span>
                     <div class="view">Quick View</div>
-                    <img src="./banner1.jpg" alt="">
+                    <img src="./image/banner1.jpg" alt="">
+                <div class="count">
+                    <h4>Pizaa</h4>
+                    <p>$50.00
+                        <del>$65.44</del>
+                    </p>
+                    <a class="cart" href="">ADD TO CART</a>
                 </div>
-            <div class="count-7">
-                <h4>Formal Blue Shirt</h4>
-                <p>$50.00</p>
-                <a class="cart" href="">ADD TO CART</a>
-            </div>
+                </div>
             </div>
                 
             <div id="card-8">
-                <div class="card-8">
+                <div class="card">
                     <span>New</span>
                     <div class="view">Quick View</div>
-                    <img src="./banner2.jpg" alt="">
+                    <img src="./image/banner2.jpg" alt="">
+                <div class="count">
+                    <h4>Pizaa</h4>
+                    <p>$50.00
+                        <del>$65.44</del>
+                    </p>
+                    <a class="cart" href="">ADD TO CART</a>
                 </div>
-            <div class="count-8">
-                <h4>Formal Blue Shirt</h4>
-                <p>$50.00</p>
-                <a class="cart" href="">ADD TO CART</a>
-            </div>
+                </div>
             </div>
         </div>
-    </div>         
+    </div> 
+    
+    <!-- Footer Start -->
+
+    <footer id="footer">
+        <div class="row">
+
+        
+            <!-- policy -->
+
+            <div class="policy">
+                <h3>UseFul Links</h3>
+                <p>Refund Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Promo Codes</p>
+            </div>
+       
+       
+             <!-- payment -->
+
+            <div class="payment">
+                <h3>Payment Methods</h3>
+            </div>
+       
+       
+             <!-- contact -->
+
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>lapinoz@.gmail.com</p>
+                <p>0123456789</p>
+            </div>
+
+
+             <!-- follow -->
+
+            <div class="follow">
+                <h3>Follow US</h3>
+                <a href="https://www.facebook.com/"><img src="./image/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="./image/instagram.png" alt=""></a>
+                <a href="https://www.youtube.com/"><img src="./image/youtube.png" alt=""></a>
+                <a href="https://twitter.com/i/flow/login"><img src="./image/twitter.jpg" alt=""></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
