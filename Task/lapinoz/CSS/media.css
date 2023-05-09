@@ -294,17 +294,19 @@
         }
 }
 @media screen and (min-width:1025px) and (max-width:1440px){
+
+    h1{
+        grid-column: 1/7;
+        grid-row: 1/2;
+        display: grid;
+        justify-content: center;
+    }
    
-    #content{
+    .container{
         width: 95%;
         grid-template-columns: repeat(6,1fr);
         }
-        #content h1{
-            grid-column: 1/7;
-            grid-row: 1/2;
-            display: grid;
-            justify-content: center;
-        }
+       
     
         #card-1{
             grid-column: 1/2;
@@ -341,17 +343,18 @@
 }
 
 @media screen and (min-width:1441px){
-    #content{
+    
+    h1{
+        grid-column: 1/7;
+        grid-row: 1/2;
+        display: grid;
+        justify-content: center;
+    }
+
+    .container{
         width: 95%;
         grid-template-columns: repeat(6,1fr);
         }
-        #content h1{
-            grid-column: 1/7;
-            grid-row: 1/2;
-            display: grid;
-            justify-content: center;
-        }
-    
         #card-1{
             grid-column: 1/2;
             grid-row: 2/3;
