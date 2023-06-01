@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-4</title>
+</head>
+<body>
+    <section>
+    <h3>Q4:-Canvas and SVG tags</h3>
+    <p>ans:-
+        SVG:-<br>
+        <p>SVG stands for Scalable Vector Graphics<br>
+            SVG define vector-based Graphics
+        </p>
+        <b>Ex:-</b><br>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="green" />
+          </svg>
+    </p>
+    canvas:-
+    <b>Ex:-</b><br>
+    <canvas id="mycan" height="250" width="250" style="background-color: lightgray;"></canvas>
+    <script>
+        var can = document.getElementById("mycan");
+        var ctx = can.getContext("2d");
+         ctx.moveTo(0, 0);
+         ctx.lineTo(250, 250);
+         ctx.stroke();
+    </script>
+    </section>
+</body>
+</html>
